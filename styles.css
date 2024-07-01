@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+}
+ul{
+    list-style-type: none;
+    background-color: plum;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+ul li ul.dropdown{
+    display: block;
+    background: plum;
+    margin: 2px 0px;
+}
+ul li ul.dropdown{
+    width: auto;
+    background: purple;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover{
+    background: plum;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+ul li ul.Dropdown li{
+    display: block;
+    background: #ffff;
+    margin:  2px 0px;
+}
+ul li ul.Dropdown{
+    width: auto;
+    background: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover{
+    background: plum;
+}
+ul li:hover ul.Dropdown{
+    display: block;
+}
+.nav{
+    height:50px;
+    width: 100%;
+    background-color: blue;
+}
+h1{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+h2{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 150px;
+}
+.collection{
+    height: 700px;
+    width: 100%;
+    background-color: blue;
+    background-image: url(images/vesab.jpg);
+    background-size: cover;
+}
+.btn{
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    border-color: white;
+    margin-top: 150px;
+    margin-left: 20px;
+    background-color: white;
+    color: black;
+}
+button{
+    height: 50px;
+    width: 210px;
+    border-radius: 20px;
+    margin-left: 20px;
+    background-color: 1px solid white;
+    background-color: transparent;
+    margin: 10px;
+    color: white;
+}
+.section{
+    height: 500px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.pic{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px pink solid;
+    background-color: pink;
+    border-color: none;
+    margin-top: 200px;
+    margin-left: 10px;
+    text-align: center;
+}
+.section1{
+    height: 700px;
+    width: 100%;
+    background-color: wheat;
+}
+.images{
+    float: left;
+    padding-top: 50px;
+    margin: 20px;
+}
+.images1{
+    float: left;
+    padding-top: 50px;
+    margin: 10px;
+}
+.images2{
+    float: left;
+    padding-top: 50px;
+    margin: 10px;
+}
+.images3{
+    float: left;
+    padding-top: 50px;
+    margin: 10px;
+}
+h3{
+    text-align: center;
+    padding-top: 10px;
+    color: grey;
+    font-size: 15px;
+}
+h4{
+    text-align: center;
+    color: grey;
+    font-size: 13px;
+}
+h6{
+    font-size: 20px;
+}
+h5{
+    font-size: 30px;
+    padding-top: 10px;
+}
+.section2{
+    height: 600px;
+    width: 100%;
+    background-color: blueviolet;
+}
+.part1{
+    height: 600px;
+    width: 50%;
+    background-color: grey;
+    float: left;
+}
+.part2{
+    height: 600px;
+    width: 50%;
+    float: left;
+    background-image: url(images/pic1.jpg);
+    background-size: cover;
+}
+.btn1{
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 0 10px;
+    margin-top: 100px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.btn1:hover{
+    background: transparent;
+    color: black;
+}
